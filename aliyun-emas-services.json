@@ -1,0 +1,48 @@
+{
+  "config": {
+	"emas.appKey":"28219819",
+	"emas.appSecret":"2fc471c9c9c8bcfa78c4ce2eb1fc828b",
+	"emas.packageName":"com.sty.hotfix.sophix",
+	"hotfix.idSecret":"28219819-1",
+	"hotfix.rsaSecret":"MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC7fFUAatDx0X6v0xPVHvsF/GDPLdCCMRB5RLeBzPKUXaiz061BWXf3zW/30WKGU1hX262RS6bQ/AW9b8vpzfTddUZx1+okfEjF3ht1TJgmD89wlulmQIqp0vKCjPeWRcmU6vz+Q0+MreWuN/8LsSYb7M5m+Ic9wywAHGRRg2HMyTkl1vuYmS5uhO2ZtRWbbu6erKRruqQSn6whuZQtwRnOaeadTnKia+3dOHnWHpeC+MQZr1dNSO6njvI6Nw+IbbLs4+peD1iBGcOrXLGAnLNyISAn4pXpaSWDc4n2jpAIPnttgTMv56HGUqY8JmJBu1lDjfYRoIQrb3Sv7MIKVBa1AgMBAAECggEBAKlG5OhviSAM6rmNdwah5jvNVws4bl5eNmWHqbhEd3GF7uAOawvp3+uZTVMPdkmZztXkvp3FFGT0Z6pW2mHLVx7s2CHJtNokbQBaPah285jKBZ2+ZBWyiIA0ukktRg4kDJGsaaiY1aZLDGl0nY7M73+fG+zU0CbvpTaka989JHxkVgz2hOvQY315TLCTDhbk5byuYiIfVT3rrHaRQQTN6f6LVXw43VALh1K3tZqZnm9frxzfgRcRWFHm5tdHcm0WHV/2QuqxYMxktxcGBe5Lbri+QkCqsxkKAJFJe0sofSKh7UU+5AXo4pXyUgRNCnQZzZxb7uK2IPfAXYUIWUcH1DECgYEA6Yr5H3M7YXcuStG6RoqVkx+ZmGwM4ZqNbpaFdNCRQcEOe6mFJkggaR64eR3uBQIY6F6gyWqLFzISKDUHvQFcjUtnkGqZk4FLN7/fK9G8ypgx26wx6xbmV5zSHQ+qHIdq3kKVXqOSfKJ1BsHh9+uqQ8qRdhi4lVuan8PHG/LKv7sCgYEAzYOWmulYZ4NsQiOl4RtkeTP8QrvaKxNDSofN5pxFHhpQK0mPNuPV2A9xItGQHIKl0oEkMeVciRpcMx/TTT9Doj0UtrRLM0MZ7nVbuHBPNstgYWfABKxqtUc8+1ueaiUPSJ3dEC3tYRdicVRxCMe+zmO+7iUVHm2rPbxXW4IMBE8CgYBUC7hlshF/nOVi9aEEu+DiRm//I3trQTR+xNqYVGrB8BknNbV+Nly7l9upcrTyxnNyRIO2mIofudxA7fyv7yqAis9lcId+Rvxrvrgwy9UWT7k5pfl88gvJId2Xqch9Zdp2zB13JoSUJ97XpLSOhRgMN30rs+/RiFrX/hvMmg6O+wKBgCIopga3lE8YRA02OaMR14BhyKMa8CdKu1uO+QVEoiRfwUWAo4I/GlMgNfDQnkBu4rr7ZhW5BslvDTYeKxPi2Q4FUwUPMJSjqZK+BPHCERiNc0adZQgh1FavMY6h6tG/uSubuZuv1o3VwjIOE/+em7NYVurkVP9KwTSwsmBuXCr3AoGAXUo52cmajuq7aZFQrgmYFzMhwtrd5wj3x2xQb2iju3vK34gO9QXfMgYrjnyJ00T+5fhe93v91w9QPhFJbYAnkMu7M8we5LBiu6a9k9J0o4B20OUZpvFdAH/6o/bTA7W0GgiyLbOu6FBwQPaYvWSRBWSt+OkHv4CgccHb8WfALxE=",
+	"httpdns.accountId":"157113",
+	"httpdns.secretKey":"a6e8b471df809747cb374b8a416e3c32",
+	"appmonitor.tlog.rsaSecret":"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDJMJhxNa72zO08ZKYQYoaXaA/bsFl3jVW7GfvfouhMy/Bnyy7S4l25uua5lSITwOhZdzo6DafJ/hfe8Yy5mt3FZr/8GK/3l8c09MMWIB4r6jcandfWAhWTIPhsnvN/CuA2yz/+42XLTR1MnQB5kRzIjl4xr4M4JLe447cyNfXdJQIDAQAB"
+},
+  "services": {
+      "httpdns_service": {
+        "status": 1,
+        "version":"1.2.6"
+      },
+      "cps_service": {
+        "status": 1,
+        "version":"3.1.7"
+      },
+      "hotfix_service": {
+        "status": 1,
+        "version":"3.2.12"
+      },
+      "man_service": {
+        "status": 1,
+        "version":"1.2.4"
+      },
+      "feedback_service": {
+        "status": 1,
+        "version":"3.3.1"
+      },
+       "ha-adapter_service": {
+        "status": 1,
+        "version":"1.1.3.2-open"
+      },
+      "tlog_service": {
+        "status": 1,
+        "version":"1.1.2.2-open"
+      },
+      "apm_service": {
+        "status": 1,
+        "version":"1.0.7.7-open"
+      }
+  },
+  "use_maven":true,
+  "proguard_keeplist":"\n#httpdns\n-keep class com.taobao.** {*;}\n-keep class com.alibaba.** {*;}\n-keep class com.ta.**{*;}\n-keep class com.ut.**{*;}\n-dontwarn com.taobao.**\n-dontwarn com.alibaba.**\n-dontwarn com.ta.**\n-dontwarn com.ut.**\n\n#cps\n-keep class com.taobao.** {*;}\n-keep class com.alibaba.** {*;}\n-keep class com.ta.**{*;}\n-keep class com.ut.**{*;}\n-dontwarn com.taobao.**\n-dontwarn com.alibaba.**\n-dontwarn com.ta.**\n-dontwarn com.ut.**\n-keepclasseswithmembernames class ** {\nnative <methods>;\n}\n-keepattributes Signature\n-keep class sun.misc.Unsafe { *; }\n-keep class com.alipay.** {*;}\n-dontwarn com.alipay.**\n-keep class anet.**{*;}\n-keep class org.android.spdy.**{*;}\n-keep class org.android.agoo.**{*;}\n-dontwarn anet.**\n-dontwarn org.android.spdy.**\n-dontwarn org.android.agoo.**\n\n#hotfix\n#基线包使用，生成mapping.txt\n-printmapping mapping.txt\n#生成的mapping.txt在app/buidl/outputs/mapping/release路径下，移动到/app路径下\n#修复后的项目使用，保证混淆结果一致\n#-applymapping mapping.txt\n#hotfix\n-keep class com.taobao.sophix.**{*;}\n-keep class com.ta.utdid2.device.**{*;}\n#防止inline\n-dontoptimize\n\n#man\n-keep class com.taobao.** {*;}\n-keep class com.alibaba.** {*;}\n-keep class com.ta.**{*;}\n-keep class com.ut.**{*;}\n-dontwarn com.taobao.**\n-dontwarn com.alibaba.**\n-dontwarn com.ta.**\n-dontwarn com.ut.**\n\n#feedback\n-keep class com.taobao.** {*;}\n-keep class com.alibaba.** {*;}\n-keep class com.ta.**{*;}\n-keep class com.ut.**{*;}\n-dontwarn com.taobao.**\n-dontwarn com.alibaba.**\n-dontwarn com.ta.**\n-dontwarn com.ut.**\n"
+}

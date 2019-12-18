@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sty.hotfix.sophix">
+
+    <!-- 网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 外部存储读权限，调试工具加载本地补丁需要 -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:name=".SophixStubApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!--对应 aliyun-emas-services.json 中的 hotfix.idSecret -->
+        <!--<meta-data-->
+            <!--android:name="com.taobao.android.hotfix.IDSECRET"-->
+            <!--android:value="28219819-1" />-->
+        <!--对应 aliyun-emas-services.json 中的 emas.appSecret -->
+        <!--<meta-data-->
+            <!--android:name="com.taobao.android.hotfix.APPSECRET"-->
+            <!--android:value="2fc471c9c9c8bcfa78c4ce2eb1fc828b" />-->
+        <!--对应 aliyun-emas-services.json 中的 hotfix.rsaSecret -->
+        <!--<meta-data-->
+            <!--android:name="com.taobao.android.hotfix.RSASECRET"-->
+            <!--android:value="MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC7fFUAatDx0X6v0xPVHvsF/GDPLdCCMRB5RLeBzPKUXaiz061BWXf3zW/30WKGU1hX262RS6bQ/AW9b8vpzfTddUZx1+okfEjF3ht1TJgmD89wlulmQIqp0vKCjPeWRcmU6vz+Q0+MreWuN/8LsSYb7M5m+Ic9wywAHGRRg2HMyTkl1vuYmS5uhO2ZtRWbbu6erKRruqQSn6whuZQtwRnOaeadTnKia+3dOHnWHpeC+MQZr1dNSO6njvI6Nw+IbbLs4+peD1iBGcOrXLGAnLNyISAn4pXpaSWDc4n2jpAIPnttgTMv56HGUqY8JmJBu1lDjfYRoIQrb3Sv7MIKVBa1AgMBAAECggEBAKlG5OhviSAM6rmNdwah5jvNVws4bl5eNmWHqbhEd3GF7uAOawvp3+uZTVMPdkmZztXkvp3FFGT0Z6pW2mHLVx7s2CHJtNokbQBaPah285jKBZ2+ZBWyiIA0ukktRg4kDJGsaaiY1aZLDGl0nY7M73+fG+zU0CbvpTaka989JHxkVgz2hOvQY315TLCTDhbk5byuYiIfVT3rrHaRQQTN6f6LVXw43VALh1K3tZqZnm9frxzfgRcRWFHm5tdHcm0WHV/2QuqxYMxktxcGBe5Lbri+QkCqsxkKAJFJe0sofSKh7UU+5AXo4pXyUgRNCnQZzZxb7uK2IPfAXYUIWUcH1DECgYEA6Yr5H3M7YXcuStG6RoqVkx+ZmGwM4ZqNbpaFdNCRQcEOe6mFJkggaR64eR3uBQIY6F6gyWqLFzISKDUHvQFcjUtnkGqZk4FLN7/fK9G8ypgx26wx6xbmV5zSHQ+qHIdq3kKVXqOSfKJ1BsHh9+uqQ8qRdhi4lVuan8PHG/LKv7sCgYEAzYOWmulYZ4NsQiOl4RtkeTP8QrvaKxNDSofN5pxFHhpQK0mPNuPV2A9xItGQHIKl0oEkMeVciRpcMx/TTT9Doj0UtrRLM0MZ7nVbuHBPNstgYWfABKxqtUc8+1ueaiUPSJ3dEC3tYRdicVRxCMe+zmO+7iUVHm2rPbxXW4IMBE8CgYBUC7hlshF/nOVi9aEEu+DiRm//I3trQTR+xNqYVGrB8BknNbV+Nly7l9upcrTyxnNyRIO2mIofudxA7fyv7yqAis9lcId+Rvxrvrgwy9UWT7k5pfl88gvJId2Xqch9Zdp2zB13JoSUJ97XpLSOhRgMN30rs+/RiFrX/hvMmg6O+wKBgCIopga3lE8YRA02OaMR14BhyKMa8CdKu1uO+QVEoiRfwUWAo4I/GlMgNfDQnkBu4rr7ZhW5BslvDTYeKxPi2Q4FUwUPMJSjqZK+BPHCERiNc0adZQgh1FavMY6h6tG/uSubuZuv1o3VwjIOE/+em7NYVurkVP9KwTSwsmBuXCr3AoGAXUo52cmajuq7aZFQrgmYFzMhwtrd5wj3x2xQb2iju3vK34gO9QXfMgYrjnyJ00T+5fhe93v91w9QPhFJbYAnkMu7M8we5LBiu6a9k9J0o4B20OUZpvFdAH/6o/bTA7W0GgiyLbOu6FBwQPaYvWSRBWSt+OkHv4CgccHb8WfALxE=" />-->
+    </application>
+
+</manifest>
